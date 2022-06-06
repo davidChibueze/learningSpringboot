@@ -6,6 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentService {
+    
+    public StudentService(){
+
+    }
     public List<Student> getStudents(){
         List<Student> students = new ArrayList<>();
         students.add(new Student(
